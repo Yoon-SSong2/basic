@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;} 
+
+
+body{
+    padding-top: 100px;
+}
+.aaa{border: 3px solid black;
+    width: 400px; margin: 0 auto;
+    ul{   /* .aaa ul */
+        border: 3px solid red;
+        li{    /* .aaa ul li */
+       /*  >li{    .aaa ul li */
+            border: 1px solid black;
+            a{
+                &:hover{color: blueviolet;}
+            }
+            &:last-child{background-color: aquamarine;}
+        }
+    }
+
+    &.active{background-color: cyan;} /* .aaa.active */
+
+}

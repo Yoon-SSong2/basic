@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+
+.효자::after{content: ""; clear: both; display: block; }
+
+.전체영역{
+    width: 1000px; background-color: antiquewhite ;
+   margin-top: 0;
+   margin-left: auto;
+   margin-right: auto;
+   box-sizing: border-box;
+   padding:20px;
+   padding-top: 200px;
+}
+
+.전체영역 .일동{}
+
+
+.전체영역 .일동 .일일{width: 30%; height: 200px;
+    background-color: green;
+    float: left;
+    margin-right: 5%;
+
+}
+.전체영역 .일동 .일이{width: 30%; height: 200px;
+    background-color: green;
+    margin-right: 5%;
+    float: left;
+}
+.전체영역 .일동 .일삼{width: 30%; height: 200px;
+    background-color: green;
+    float: left;
+}

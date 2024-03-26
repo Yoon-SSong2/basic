@@ -1,0 +1,11 @@
+#이조상>div{padding-left: 50px;}
+#이조상>div.이지만{background-color: aqua;}
+#이조상>div.이지만 .막내{background-color: blueviolet;}
+#이조상>div.이지만>div{padding-left: 50px;}
+#이조상>div.이서윤>div{padding-left: 50px;}
+
+/* #이조상 .이지만{border: 2px solid red;}
+#이조상 .이소아{border: 2px solid orange;} */
+#이조상>div.이지만 .이소아{border: 4px solid green;}
+
+#이조상>div .이지만{border: 5px solid blue;}

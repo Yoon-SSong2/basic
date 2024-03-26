@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0;}
+
+.약::after{content:""; clear: both; display:block; }
+
+.전체{width: 1000px; 
+    background-color: aqua;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;  
+    margin-top: 100px;
+}
+
+.전체 .하나 {}
+
+.전체 .하나 #일{width: 21.25% ; height: 200px;
+    margin-right: 5%;
+    background-color: green;
+    float: left;
+}
+.전체 .하나 #이{width: 21.25% ;height: 200px;
+    margin-right: 5%;
+    background-color: green;
+    float: left;
+}
+
+.전체 .하나 #삼{width: 21.25% ;height: 200px;
+    margin-right: 5%;
+    background-color: green;
+    float: left;
+
+}
+.전체 .하나 #사{width: 21.25% ;   height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.전체 .두울{width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: yellow;
+    box-sizing: border-box;
+
+}
+.전체 .두울 .둘찌 #두일
+{ width: 21.25%; height: 200px;
+    background-color: green;
+    margin-right: 5%;
+    float: left;
+}
+
+.전체 .두울 .둘찌 #두이{width: 21.25%; height: 200px;
+    background-color: green;
+    margin-right: 5%;
+    float: left;
+}
+
+.전체 .두울 .둘찌 #두삼{width: 21.25%; height: 200px;
+    background-color: green;
+    margin-right: 5%;
+    float: left;
+}
+
+.전체 .두울 .둘찌 #두사{width: 21.25%; height: 200px;
+    background-color: green;
+    float: left;
+    
+}
+
+.전체 .두울 .둘셋{
+width: 100%;
+background-color: blueviolet;
+text-align: center;
+padding-top: 30px; padding-bottom: 30px;
+box-sizing: border-box;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+.전체 .서이{
+margin: 0 auto;
+margin-top: 50px;
+}
+
+.전체 .서이 #서일{
+    width: 75%; height: 200px;
+    margin-right: 5%;
+    background-color: green;
+    float: left;
+}
+
+.전체 .서이 #서이{
+    width: 20%; height: 200px;
+    background-color: green;
+    float: left;
+}
